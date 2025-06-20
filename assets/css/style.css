@@ -8,21 +8,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
 
-/* <weight>: use a value from 200 to 700 */
-/* <uniquifer>: use a unique and descriptive class name */
-
-/* .oswald-<uniquifier> {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-.lato-light {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-} */
-
 /* general style rules */
 body{
     min-height: 100vh;
@@ -42,10 +27,17 @@ header{
     width:100%;
     box-shadow: 0 2px 2px #3a3a3a;
 }
+header a{
+    text-decoration: none;
+    color: inherit;
+}
 
 /* Oswald font for H1 headings */
 h1{
 font-family:"Oswald", sans-serif;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: #252525;
 }
 
 /* main content*/
