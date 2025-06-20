@@ -1,0 +1,19 @@
+/* Adding styling to overide browser default styling to all elements */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header{
+    background-color: lightcoral;
+}
+/* main content*/
+main{
+    background-color: lightblue;
+}
+/* footer */
+footer{
+    background-color: orange;
+}
