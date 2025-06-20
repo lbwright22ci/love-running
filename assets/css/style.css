@@ -1,12 +1,12 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /* Adding styling to overide browser default styling to all elements */
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
 }
-
-/* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
 
 /* general style rules */
 body{
@@ -15,7 +15,7 @@ body{
     flex-direction: column;
     /* generic project styles */
     color:#3a3a3a;
-    font-family:"Lato", sans-serif;
+    font-family:'Lato', sans-serif;
 }
 
 /* Header */
@@ -34,12 +34,23 @@ header a{
 
 /* Oswald font for H1 headings */
 h1{
-font-family:"Oswald", sans-serif;
+font-family:'Oswald', sans-serif;
 text-transform: uppercase;
 letter-spacing: 2px;
 color: #252525;
 }
-
+/* nav styling */
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+#menu > li{
+    margin-bottom: 1em;
+}
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
 /* main content*/
 main{
     background-color: lightblue;
@@ -50,3 +61,4 @@ main{
 footer{
     background-color: orange;
 }
+
