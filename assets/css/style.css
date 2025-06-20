@@ -5,6 +5,24 @@
     box-sizing: border-box;
 }
 
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
+
+/* <weight>: use a value from 200 to 700 */
+/* <uniquifer>: use a unique and descriptive class name */
+
+/* .oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+} */
+
 /* general style rules */
 body{
     min-height: 100vh;
@@ -12,6 +30,7 @@ body{
     flex-direction: column;
     /* generic project styles */
     color:#3a3a3a;
+    font-family: "Lato", sans-serif;
 }
 
 /* Header */
