@@ -82,7 +82,7 @@ nav{
 
 /* main content*/
 main{
-    background-color: lightblue;
+    /* background-color: lightblue; */
     /* make the main element take up surplus space on the page and push footer to the bottom */
     flex: 1 0 auto;
     margin-top: 47px;
@@ -109,6 +109,28 @@ main{
 }
 #cover-section>h2, #cover-section>h3{
     color: #ffffff;
+}
+/*reasons section*/
+#reasons{
+    background-color: #ffffff;
+    margin:20px auto;
+    width:90%;
+}
+#reasons h2{
+    font-size: 280%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#benefits div{
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+#benefits hr{
+    border-top: 1px solid #3a3a3a;
+    margin:5px 0;
+}
+#benefits p{
+    padding:0 20px;
 }
 
 /* footer */
