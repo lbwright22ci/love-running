@@ -25,6 +25,10 @@ text-transform: uppercase;
 letter-spacing: 2px;
 color: #252525;
 }
+/*class to hide headings*/
+.hidden-headings{
+    display: none;
+}
 
 /* Header */
 header{
