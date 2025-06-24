@@ -305,7 +305,24 @@ justify-content: center;
     #photos{
     column-count: 3;
     column-gap: 0;}
-
+    /*sign up page*/
+    #signup{
+        background-position: center;
+        position: relative;
+        padding-top: 150px;
+        padding-right:10%;
+    }
+    #signup-form{
+        position:absolute;
+        max-width: 400px;
+    }
+    .text-input:hover{
+        border-color: #f16c6b;
+    }
+    .join-button:hover{
+        background-color: #fafafa;
+        color: #454b1b;
+    }
 
 }
 @media screen and (min-width:992px) {
